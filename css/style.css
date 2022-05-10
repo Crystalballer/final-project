@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    font-size: 16p;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+header {
+    height: 200px;
+    background-color: #116530;
+}
+
+.navigation {
+    padding-left: 0;
+    float: right;
+    
+
+}
+
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+</style>
+
+.navigation > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    
+    
+
+}
+
+.navigation > li > a  {
+    text-decoration: none;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 50%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 15px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 10px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #116530;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #FFCC1D;
+  }
+
+  /* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #E8E8CC;
+    padding: 20px;
+    /* max-width: 960px; */
+    margin:auto 
+  }
