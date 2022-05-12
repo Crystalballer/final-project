@@ -7,20 +7,11 @@
 
 header {
     height: 200px;
-    background-color: #1b3f28;
+    background-color: #1B3409;
     display: flex;
     justify-content: space-between;
     align-items: center;
    
-}
-
-.navigation { 
-    /* padding-left: 0px; */
-    /* float: right; */
-    /* width: 100%; */
-    /* text-align: center; */
-    /* vertical-align: middle; */
-    
 }
 
 .logo > img {
@@ -30,32 +21,54 @@ header {
   padding-top: 10px; 
   padding-bottom: 10px;
   
+}
 
+.item > a > img {
+  height: 300px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroimage {
+  height: auto;
+  width: 100%;
+}
+
+.video {
+padding-left: 200px;
+padding-top: 50px;
+padding-bottom: 25px;
+}
+
+.map {
+  padding-left: 320px;
 }
 
 a:link {
-  color: green;
+  color: #84a76a;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: pink;
+  color:#84a76a;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: white;
+  color: #84a76a;
   background-color: transparent;
   text-decoration: none;
 }
-
+/* 
 a:active {
-  color: yellow;
+  color: rgb(236, 244, 9);
   background-color: transparent;
   text-decoration: none;
-}
+} */
 
 
 .navigation > li {
@@ -89,7 +102,7 @@ input[type=text], select, textarea {
 
   /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #116530;
+    background-color: #1B3409;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -99,7 +112,7 @@ input[type=submit] {
 
   /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #FFCC1D;
+    background-color: #84a76a;
   }
 
   /* Add a background color and some padding around the form */
@@ -109,4 +122,12 @@ input[type=submit]:hover {
     padding: 20px;
     max-width: 600px;
     margin: 25px auto 25px auto;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  footer {
+    text-align: center;
   }
